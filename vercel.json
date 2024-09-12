@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "weather.js", // Указываем правильный файл
+      "src": "weather.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/api/weather",
-      "dest": "/weather.js"  // Обновляем путь к обработчику
+      "dest": "/weather.js"
     }
   ]
 }
