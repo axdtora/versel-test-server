@@ -40,7 +40,7 @@ const initCLI = () => {
 	getWeather('Moscow')
 };
 
-const port = 3000;
+const port = versel-test-server.vercel.app;
 
 // Запускаем сервер и слушаем указанный порт
 server.listen(port, () => {
